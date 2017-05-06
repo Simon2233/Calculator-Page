@@ -26,13 +26,13 @@ html, body {
   	text-align: center;
 }
 
-#left-input-container, #right-input-container {
+.left-input-container, .right-input-container {
 	float: left;
 	width: 50%;
 	margin: auto;
 }
 
-#left-input-container input, #right-input-container input {
+.left-input-container input, .right-input-container input {
 	width: 75%;
 	margin-bottom: 15px;
 }
