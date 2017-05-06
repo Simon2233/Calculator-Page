@@ -51,6 +51,17 @@ $(document).ready(function() {
 			numberOfRows++;
 		}
 	});
+	
+	$(".row-container").on('blur','.mark-row:last-child input.right-input',function() {
+		setTimeout(function () {
+			if (document.activeElement.id == "add" && numberOfRows < 9) {
+				$(".row-container").append("<div class='mark-row'><input class='left-input' type='number'><input class='right-input' type='number'></div>");
+				$(".mark-row:last-child input.left-input").focus();
+				numberOfRows++;
+			}
+		}, 0);
+	});
+	
 	$("#calculate").click(function() {
 		var grades = [];
 		var weight = [];
