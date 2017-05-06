@@ -6,4 +6,13 @@ $(document).ready(function() {
 			counter++;
 		}
 	});
+	$("#calculate").click(function() {
+		var grades = [];
+		var weight = [];
+		$("div.left-input-container").each(function() {
+			var inputValue;
+			inputValue = ($(this).find("input.grades").val());
+			console.log(inputValue);
+		});
+	});
 });
