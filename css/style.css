@@ -25,14 +25,16 @@ html, body {
   	margin-left: 1.35em;
   	text-align: center;
 }
-
-.left-input-container, .right-input-container {
+.left-input{
 	float: left;
-	width: 50%;
-	margin: auto;
+	width: 40%;
+	margin-left: 10px;
+	margin-bottom: 15px;
 }
 
-.left-input-container input, .right-input-container input {
-	width: 75%;
+ .right-input {
+	float: right;
+	width: 40%;
+	margin-right: 10px;
 	margin-bottom: 15px;
 }
