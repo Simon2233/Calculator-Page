@@ -15,7 +15,7 @@ html, body {
     margin: auto;
 }
 
-#input-containers {
+#input-container {
 	position: relative;
 	border: 1px solid black;
 	width: 85%;
@@ -30,7 +30,6 @@ html, body {
 	float: left;
 	width: 50%;
 	margin: auto;
-	margin-top: 40%;
 }
 
 #left-input-container input, #right-input-container input {
